@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        tools:context="com.nguyeningcode.jnguyen7410.ruler.MainActivity"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="100sp"
+            android:gravity="center_horizontal"
+            android:text="Ruler"
+            android:id="@+id/textView"
+            android:layout_marginTop="104dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Coming Soon..."
+            android:layout_marginTop="46dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentStart="true" />
+</RelativeLayout>
+
